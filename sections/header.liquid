@@ -114,7 +114,7 @@
   endif
 %}
 
-<{{ header_tag }} {% if header_tag == 'sticky-header' %}data-sticky-type="{{ section.settings.sticky_header_type }}"{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
+<{{ header_tag }} {% if header_tag == 'sticky-header' %}data-sticky-type="{{ section.settings.sticky_header_type }}"{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %} {% if section.settings.rounded_header %}header-wrapper-rounded{% endif %}">
   {%- liquid
     assign social_links = false
     assign localization_forms = false
@@ -533,6 +533,12 @@
       "id": "show_line_separator",
       "default": true,
       "label": "t:sections.header.settings.show_line_separator.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "rounded_header",
+      "default": false,
+      "label": "Rounded header"
     },
     {
       "type": "header",
