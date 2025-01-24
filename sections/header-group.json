@@ -17,7 +17,8 @@
         ".header-wrapper {background-color: #bdbdbd;}",
         ".header__icon--search {display: none;}",
         ".header__icon--account {display: none;}",
-        ".header__icon--cart {display: none;}"
+        ".header__icon--cart {display: none;}",
+        ".header {margin-left: 0px;}"
       ],
       "settings": {
         "logo_position": "middle-left",
