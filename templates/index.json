@@ -11,9 +11,7 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "custom_css": [
-        ".banner {margin-top: -85px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/usm-haller-modular-furniture-usm_0024191_2_c99b89bc-7ef9-4b32-84b1-5f64352e5e56.png",
         "image_overlay_opacity": 0,
