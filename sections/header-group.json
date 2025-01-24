@@ -14,7 +14,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header-wrapper {background-color: ##bdbdbd;}",
+        ".header-wrapper {background-color: #bdbdbd;}",
         ".header__icon--search {display: none;}",
         ".header__icon--account {display: none;}",
         ".header__icon--cart {display: none;}"
