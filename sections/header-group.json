@@ -14,8 +14,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header-wrapper {background-color: #d9d9d9;}",
-        "@media screen and (min-width: 990px) {.header-wrapper-rounded {margin: 1rem 20rem; }}",
+        ".header-wrapper {background-color: ##bdbdbd;}",
         ".header__icon--search {display: none;}",
         ".header__icon--account {display: none;}",
         ".header__icon--cart {display: none;}"
@@ -26,7 +25,7 @@
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
-        "rounded_header": true,
+        "rounded_header": false,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "",
         "enable_country_selector": true,
